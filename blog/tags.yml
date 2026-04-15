@@ -1,0 +1,14 @@
+notes:
+  label: Notes
+  permalink: /notes
+  description: 文档与随手记录
+
+project:
+  label: Project
+  permalink: /project
+  description: 项目相关记录
+
+weekly:
+  label: Weekly
+  permalink: /weekly
+  description: 周报与阶段总结
