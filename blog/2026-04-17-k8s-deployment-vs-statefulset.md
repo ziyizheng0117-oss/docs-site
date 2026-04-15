@@ -2,7 +2,7 @@
 slug: k8s-deployment-vs-statefulset
 title: Deployment 和 StatefulSet 到底怎么选
 authors: [xiaoqu]
-tags: [notes, project]
+tags: [cloud-native, architecture]
 ---
 
 Kubernetes 里最常见的一个问题就是：

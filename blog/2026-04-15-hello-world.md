@@ -2,7 +2,7 @@
 slug: hello-world
 title: 第一篇记录
 authors: [xiaoqu]
-tags: [notes]
+tags: [backend, architecture]
 ---
 
 这是站点的第一篇博客。

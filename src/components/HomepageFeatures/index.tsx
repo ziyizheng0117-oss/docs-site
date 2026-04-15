@@ -11,29 +11,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: '基础概念讲人话',
+    title: '后端与云原生主线',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        不靠术语轰炸，先把 Kubernetes 里真正关键的抽象讲顺，适合快速建立整体认知。
+        围绕服务治理、容器编排、网络链路、配置管理、可观测性这些一线问题来写，不只讲概念。
       </>
     ),
   },
   {
-    title: '偏实战，不只贴 YAML',
+    title: 'JVM / Linux 偏工程实践',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        更关注为什么这么配、出了问题怎么查，而不是只给一段“能跑但看不懂”的配置。
+        重点放在性能、排障、线上稳定性和工程经验，尽量写成真正能拿来解决问题的文章。
       </>
     ),
   },
   {
-    title: '可长期积累成知识库',
+    title: 'LLM 落地与系统设计',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        文档区适合整理体系化内容，博客区适合记录排障、复盘和临时想法，后面很容易越写越成型。
+        不只聊模型概念，也会写 RAG、上下文工程、提示词编排、服务化部署和实际成本控制。
       </>
     ),
   },

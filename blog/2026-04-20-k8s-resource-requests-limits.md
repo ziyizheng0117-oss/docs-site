@@ -2,7 +2,7 @@
 slug: k8s-resource-requests-limits
 title: requests 和 limits 别再背了，直接按资源竞争来理解
 authors: [xiaoqu]
-tags: [notes, project]
+tags: [cloud-native, architecture]
 ---
 
 Kubernetes 里 `requests` 和 `limits` 是新手几乎必撞的一堵墙。

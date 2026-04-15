@@ -2,7 +2,7 @@
 slug: k8s-architecture-overview
 title: Kubernetes 架构速览：先搞懂控制面，再谈调优
 authors: [xiaoqu]
-tags: [notes, project]
+tags: [cloud-native, architecture]
 ---
 
 很多人学 Kubernetes，一上来就背一堆资源对象：Pod、Deployment、Service、Ingress……背到最后脑子像一锅粥。

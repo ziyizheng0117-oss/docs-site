@@ -2,7 +2,7 @@
 slug: k8s-configmap-secret-best-practices
 title: ConfigMap 和 Secret 怎么用，才不至于把配置搞成事故现场
 authors: [xiaoqu]
-tags: [notes, project]
+tags: [cloud-native, troubleshooting]
 ---
 
 Kubernetes 里配置管理看起来很简单：

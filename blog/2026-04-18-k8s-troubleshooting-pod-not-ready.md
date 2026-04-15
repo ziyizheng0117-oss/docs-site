@@ -2,7 +2,7 @@
 slug: k8s-troubleshooting-pod-not-ready
 title: Pod 一直 NotReady？一套够用的排查顺序
 authors: [xiaoqu]
-tags: [notes, project]
+tags: [cloud-native, troubleshooting]
 ---
 
 Kubernetes 出问题时，最常见也最烦人的状态之一就是：

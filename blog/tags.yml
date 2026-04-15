@@ -1,14 +1,34 @@
-notes:
-  label: Notes
-  permalink: /notes
-  description: 文档与随手记录
+backend:
+  label: Backend
+  permalink: /backend
+  description: 后端工程、服务设计与接口治理
 
-project:
-  label: Project
-  permalink: /project
-  description: 项目相关记录
+cloud-native:
+  label: Cloud Native
+  permalink: /cloud-native
+  description: Kubernetes、容器、服务发现与平台工程
 
-weekly:
-  label: Weekly
-  permalink: /weekly
-  description: 周报与阶段总结
+jvm:
+  label: JVM
+  permalink: /jvm
+  description: Java、JVM、GC、性能调优与线上问题分析
+
+linux:
+  label: Linux
+  permalink: /linux
+  description: Linux 系统、网络、监控与运维排障
+
+llm:
+  label: LLM
+  permalink: /llm
+  description: 大模型应用、RAG、Agent 与推理服务实践
+
+troubleshooting:
+  label: Troubleshooting
+  permalink: /troubleshooting
+  description: 故障排查、线上事故与问题定位
+
+architecture:
+  label: Architecture
+  permalink: /architecture
+  description: 架构设计、系统演进与技术方案思考

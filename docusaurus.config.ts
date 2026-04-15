@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: '小屈同学的文档站',
-  tagline: '记录文档、笔记和折腾',
+  title: '小屈同学的技术博客',
+  tagline: '专注后端、云原生、JVM、Linux 与 LLM 的技术实践',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -39,9 +39,9 @@ const config: Config = {
         },
         blog: {
           showReadingTime: true,
-          blogTitle: '博客',
-          blogDescription: '一些更新、记录和想法',
-          blogSidebarTitle: '全部文章',
+          blogTitle: '技术博客',
+          blogDescription: '聚焦后端、云原生、JVM、Linux 和 LLM 的实践文章与排障记录',
+          blogSidebarTitle: '最新文章',
           blogSidebarCount: 'ALL',
           feedOptions: {
             type: ['rss', 'atom'],
@@ -67,7 +67,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: '文档站',
+      title: '技术博客',
       logo: {
         alt: '文档站 Logo',
         src: 'img/logo.svg',
@@ -80,6 +80,7 @@ const config: Config = {
           label: '文档',
         },
         {to: '/blog', label: '博客', position: 'left'},
+        {to: '/about', label: 'About', position: 'left'},
         {
           href: 'https://github.com/ziyizheng0117-oss/docs-site',
           label: 'GitHub',

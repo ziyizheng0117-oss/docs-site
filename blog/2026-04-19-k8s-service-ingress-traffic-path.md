@@ -2,7 +2,7 @@
 slug: k8s-service-ingress-traffic-path
 title: 从 Service 到 Ingress：一条请求在 Kubernetes 里怎么走
 authors: [xiaoqu]
-tags: [notes, project]
+tags: [cloud-native, architecture]
 ---
 
 很多人第一次接触 Kubernetes 网络时，会被这些名词绕晕：

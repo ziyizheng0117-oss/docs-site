@@ -13,21 +13,21 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <div className={styles.badge}>Kubernetes / Cloud Native / Notes</div>
+        <div className={styles.badge}>Backend / Cloud Native / JVM / Linux / LLM</div>
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <p className={styles.lead}>
-          这是一个偏实践向的云原生文档站，主要记录 Kubernetes、配置管理、排障、
-          流量治理和一些真实折腾过程。
+          这里主要写后端工程、云原生基础设施、JVM 性能调优、Linux 运维排障，
+          以及 LLM 应用落地里的架构设计、工程经验和踩坑复盘。
         </p>
         <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to="/docs/intro">
-            先看文档
+          <Link className="button button--secondary button--lg" to="/blog">
+            看最新文章
           </Link>
-          <Link className="button button--outline button--lg" to="/blog">
-            去看博客
+          <Link className="button button--outline button--lg" to="/docs/intro">
+            看专题文档
           </Link>
         </div>
       </div>
@@ -40,7 +40,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Kubernetes 与云原生文档、博客和排障记录">
+      description="后端、云原生、JVM、Linux 与 LLM 的技术文章、实践总结和排障记录">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
