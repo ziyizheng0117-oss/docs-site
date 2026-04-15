@@ -11,32 +11,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: '基础概念讲人话',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        不靠术语轰炸，先把 Kubernetes 里真正关键的抽象讲顺，适合快速建立整体认知。
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '偏实战，不只贴 YAML',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        更关注为什么这么配、出了问题怎么查，而不是只给一段“能跑但看不懂”的配置。
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '可长期积累成知识库',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        文档区适合整理体系化内容，博客区适合记录排障、复盘和临时想法，后面很容易越写越成型。
       </>
     ),
   },
