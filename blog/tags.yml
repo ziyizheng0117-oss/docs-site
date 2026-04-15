@@ -32,3 +32,23 @@ architecture:
   label: Architecture
   permalink: /architecture
   description: 架构设计、系统演进与技术方案思考
+
+java:
+  label: Java
+  permalink: /java
+  description: Java 语言、生态与工程实践
+
+panama:
+  label: Panama
+  permalink: /panama
+  description: Project Panama、FFM、Native Interop 与相关实践
+
+native:
+  label: Native
+  permalink: /native
+  description: Native 库、ABI、FFI 与系统级互操作
+
+internals:
+  label: Internals
+  permalink: /internals
+  description: 底层实现、运行时机制与源码级原理分析
