@@ -18,3 +18,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+code/io-uring-bench-rust/target/
+code/io-uring-bench-rust/test.bin
+code/io-uring-bench-rust/out-rust.bin
+code/io-uring-bench-rust/out-uring-rust.bin

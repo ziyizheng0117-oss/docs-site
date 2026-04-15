@@ -1,0 +1,17 @@
+[package]
+name = "io-uring-bench-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1"
+io-uring = "0.7"
+libc = "0.2"
+
+[[bin]]
+name = "rw_copy"
+path = "src/bin/rw_copy.rs"
+
+[[bin]]
+name = "uring_copy"
+path = "src/bin/uring_copy.rs"
