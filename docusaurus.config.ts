@@ -16,7 +16,7 @@ const config: Config = {
 
   url: 'https://ziyizheng0117-oss.github.io',
   baseUrl: '/docs-site/',
-  trailingSlash: false,
+  trailingSlash: true,
 
   organizationName: 'ziyizheng0117-oss',
   projectName: 'docs-site',
