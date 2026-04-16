@@ -4,20 +4,76 @@ sidebar_position: 2
 
 # Kubernetes 专题
 
-这里收一批 Kubernetes 相关内容，先放一些适合拿来测试站点效果的默认文章。
+这里不再只是放几篇零散文章，而是逐步整理成一份可持续维护的 **Kubernetes 知识地图**。
+
+如果你希望把 K8s 学成一个能推理、能排障、能做架构判断的系统，建议先按下面顺序读。
 
 ## 推荐阅读顺序
 
-1. 先看博客里的《Kubernetes 架构速览》
-2. 再看《Deployment 和 StatefulSet 到底怎么选》
-3. 最后看《Pod 一直 NotReady？一套够用的排查顺序》
+1. 先看《[Kubernetes 知识地图：从集群架构到安全治理的一份精确主线](/blog/kubernetes-knowledge-map-and-learning-path)》
+2. 再看《[Kubernetes 架构速览](/blog/k8s-architecture-overview)》
+3. 再看《[Deployment 和 StatefulSet 到底怎么选](/blog/k8s-deployment-vs-statefulset)》
+4. 然后看《[Service / Ingress 流量路径](/blog/k8s-service-ingress-traffic-path)》
+5. 接着看《[requests 和 limits 别再背了，直接按资源竞争来理解](/blog/k8s-resource-requests-limits)》
+6. 再看《[Kubernetes 调度到底在决策什么：把 Pod 为什么调不上去一次讲透](/blog/kubernetes-scheduler-decision-path)》
+7. 再补《[ConfigMap 和 Secret 怎么用，才不至于把配置搞成事故现场](/blog/k8s-configmap-secret-best-practices)》
+8. 最后看《[Pod 一直 NotReady？一套够用的排查顺序](/blog/k8s-troubleshooting-pod-not-ready)》
 
-## 后续可以继续扩展
+## 这套专题的学习主线
 
-- 调度与资源管理
+### 1. 先建立系统观
+
+先理解：
+
+- Kubernetes 本质是声明式控制系统
+- Control Plane 与 Worker Node 的职责边界
+- API Server、etcd、Scheduler、Controller Manager、kubelet 如何协作
+
+### 2. 再掌握工作负载抽象
+
+重点吃透：
+
+- Pod 为什么是最小运行单元
+- Deployment、ReplicaSet、StatefulSet 的差异
+- Job、CronJob、DaemonSet 分别适用于什么场景
+
+### 3. 再看流量与服务发现
+
+重点包括：
+
+- Service 的抽象作用
+- Ingress / Gateway 的入口治理
+- CoreDNS、Headless Service、NetworkPolicy 的边界
+
+### 4. 再看资源、存储与调度
+
+重点包括：
+
+- requests / limits
+- QoS、Quota、LimitRange
+- PV / PVC / StorageClass
+- 调度约束、亲和性、污点与容忍
+
+### 5. 最后补安全与排障
+
+重点包括：
+
+- RBAC / ServiceAccount / Secret
+- Pod Security / Admission
+- Pending / CrashLoopBackOff / NotReady 的排查方法
+- 网络、DNS、存储与权限问题的定位思路
+
+## 后续扩展计划
+
+接下来会继续扩展成几条清晰主线：
+
+- 架构与控制循环
+- 调度与资源治理
 - Service / Ingress / Gateway
-- 存储与 PVC
+- 存储与 PVC / CSI
+- 安全治理与多租户边界
 - Helm / Argo CD / GitOps
 - 可观测性与排障
+- 源码阅读：Informer / Controller / Scheduler / kubelet
 
-这个页面后面也可以慢慢变成一份 K8s 知识地图。
+这个页面之后会持续演化成博客里的 K8s 总导航页。
