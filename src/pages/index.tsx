@@ -26,6 +26,9 @@ function HomepageHeader() {
           <Link className="button button--secondary button--lg" to="/blog">
             看最新文章
           </Link>
+          <Link className="button button--outline button--lg" to="/docs/kubernetes-index">
+            直接看 K8s 专题
+          </Link>
           <Link className="button button--outline button--lg" to="/docs/intro">
             看专题文档
           </Link>
